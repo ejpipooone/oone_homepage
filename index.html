@@ -1,14 +1,67 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>o.one - Artist Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <h1><a href="#home">o.one</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h2>o.one</h2>
+                <p>Artist & Creator</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About o.one</h2>
+            <p>o.one is an artist who explores the intersection of art, technology, and nature. Their work is characterized by a unique blend of digital and traditional techniques, resulting in visually stunning and thought-provoking pieces.</p>
+        </section>
+
+        <section id="works">
+            <h2>Works</h2>
+            <div class="gallery">
+                <div class="artwork">
+                    <img src="https://via.placeholder.com/400x300" alt="Artwork 1">
+                    <h3>Artwork Title 1</h3>
+                    <p>Description of the artwork.</p>
+                </div>
+                <div class="artwork">
+                    <img src="https://via.placeholder.com/400x300" alt="Artwork 2">
+                    <h3>Artwork Title 2</h3>
+                    <p>Description of the artwork.</p>
+                </div>
+                <div class="artwork">
+                    <img src="https://via.placeholder.com/400x300" alt="Artwork 3">
+                    <h3>Artwork Title 3</h3>
+                    <p>Description of the artwork.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For inquiries, please email <a href="mailto:o.one@example.com">o.one@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 o.one. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
